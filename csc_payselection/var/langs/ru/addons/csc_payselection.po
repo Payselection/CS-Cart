@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.16.2/addons/csc_payselection.po\n"
+"X-Crowdin-File-ID: 7359\n"
+"PO-Revision-Date: 2023-03-22 07:16\n"
+
+msgctxt "Languages::csc_payselection.site_id"
+msgid "Site ID"
+msgstr "Site ID"
+
+msgctxt "Languages::csc_payselection.public_key"
+msgid "Public Key"
+msgstr "Публичный Ключ"
+
+msgctxt "Languages::csc_payselection.secret_key"
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::csc_payselection.payment_method"
+msgid "Payment Method"
+msgstr "Метод оплаты"
+
+msgctxt "Languages::csc_payselection.payment_method.page"
+msgid "Payment Page"
+msgstr "Страница Оплаты"
+
+msgctxt "Languages::csc_payselection.payment_method.widget"
+msgid "Widget"
+msgstr "Виджет"
+
+msgctxt "Languages::csc_payselection.payment_type"
+msgid "Payment Seheme"
+msgstr "Схема оплаты"
+
+msgctxt "Languages::csc_payselection.payment_type.pay"
+msgid "Single step"
+msgstr "Одностадийная"
+
+msgctxt "Languages::csc_payselection.payment_type.block"
+msgid "Two Step"
+msgstr "Двустадийная"
+
+msgctxt "Languages::csc_payselection.enable_fiscalization"
+msgid "Enable fiscalization"
+msgstr "Включить фискализацию"
+
+msgctxt "Languages::csc_payselection.fiscalization_email"
+msgid "Receipt sender E-Mail"
+msgstr "E-mail отправителя чека"
+
+msgctxt "Languages::csc_payselection.sno"
+msgid "Tax Type"
+msgstr "Система налогооблажения"
+
+msgctxt "Languages::csc_payselection.sno.osn"
+msgid "Общая система налогооблажения"
+msgstr "Общая система налогооблажения"
+
+msgctxt "Languages::csc_payselection.sno.usn_income"
+msgid "Упрощенная СН (доходы)"
+msgstr "Упрощенная СН (доходы)"
+
+msgctxt "Languages::csc_payselection.sno.usn_income_outcome"
+msgid "Упрощенная СН (доходы минус расходы)"
+msgstr "Упрощенная СН (доходы минус расходы)"
+
+msgctxt "Languages::csc_payselection.sno.envd"
+msgid "Единый налог на вмененный доход"
+msgstr "Единый налог на вмененный доход"
+
+msgctxt "Languages::csc_payselection.sno.esn"
+msgid "Единый сельскохозяйственный налог"
+msgstr "Единый сельскохозяйственный налог"
+
+msgctxt "Languages::csc_payselection.sno.patent"
+msgid "Патентная СН"
+msgstr "Патентная СН"
+
+msgctxt "Languages::csc_payselection.inn"
+msgid "Inn"
+msgstr "ИНН"
+
+msgctxt "Languages::csc_payselection.payment_place"
+msgid "Place of settlement"
+msgstr "Место расчетов"
+
+msgctxt "Languages::csc_payselection.success_url"
+msgid "Success URL"
+msgstr "URL Успеха"
+
+msgctxt "Languages::csc_payselection.fail_url"
+msgid "Fail URL"
+msgstr "URL Ошибки"
+
+msgctxt "Languages::csc_payselection.notify_url"
+msgid "Notify URL"
+msgstr "URL Оповещения"
+
+msgctxt "Languages::csc_payselection.result_url"
+msgid "Result URL"
+msgstr "URL Возврата"
+
+msgctxt "Languages::csc_payselection.error_processing_payment"
+msgid "Error processing payment"
+msgstr "Ошибка проведения оплаты"
+
+msgctxt "Languages::csc_payselection.transaction_waiting_approval"
+msgid "Transaction waiting for approval"
+msgstr "Ожидание подтверждения транзакции"
+
+msgctxt "Languages::csc_payselection.customer_transaction_waiting_approval"
+msgid "Your transaction waiting for approval"
+msgstr "Ваша транзакция ожидает подтверждения"
+
+msgctxt "Languages::csc_payselection.transaction_status"
+msgid "Payselection Status"
+msgstr "Payselection Status"
+
+msgctxt "Languages::csc_payselection.transaction_status.preauthorized"
+msgid "Preauthorised"
+msgstr "Предавторизовано"
+
+msgctxt "Languages::csc_payselection.transaction_status.success"
+msgid "Success"
+msgstr "Завершено"
+
+msgctxt "Languages::csc_payselection.transaction_status.declined"
+msgid "Declined"
+msgstr "Отказано"
+
+msgctxt "Languages::csc_payselection.transaction_status.pending"
+msgid "Pending"
+msgstr "Ожидание"
+
+msgctxt "Languages::csc_payselection.transaction_status.voided"
+msgid "Voided"
+msgstr "Аннулировано"
+
+msgctxt "Languages::csc_payselection.transaction_status.wait_for_3ds"
+msgid "Wait for 3DS"
+msgstr "Ожидание 3DS"
+
+msgctxt "Languages::csc_payselection.transaction_status.redirect"
+msgid "Redirect"
+msgstr "Перенаправлено"
+
+msgctxt "Languages::csc_payselection.error_order_amount"
+msgid "Enter correct order amount"
+msgstr "Введите корректную сумму"
+
+msgctxt "Languages::csc_payselection.status_changed"
+msgid "Payselection: Yoyr request accepted. Please, wait several minutes."
+msgstr "Payselection: Заявка на смену статуса принята. Ожидайте несколько минут."
+
+msgctxt "Languages::csc_payselection.error_changing_status"
+msgid "Payselection: Error changing transaction status"
+msgstr "Payselection: Ошибка изменения статуса транзакции"

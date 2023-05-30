@@ -1,0 +1,2 @@
+<input class="btn cm-confirm" type="submit" name="dispatch[payselection.refund]" value="{__("refund")}">
+<input class="input-small" type="number" min="1" max="{$order_info.total}" step="0.01" name="payselection_amount_refund" value="{$order_info.total}"> ₽

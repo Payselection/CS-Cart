@@ -1,0 +1,1 @@
+{style src="addons/csc_payselection/styles.css"}
