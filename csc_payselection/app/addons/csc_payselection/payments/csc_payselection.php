@@ -66,7 +66,7 @@ if (defined('PAYMENT_NOTIFICATION')) {
                         $pp_response['reason_text'] = __('cancelled') . ' (' . fn_format_price($data->Amount) . '₽)';
                         break;
                     case CscPayselectionProcessorParams::WEBHOOK_BLOCK:
-                        if ($order_info['status'] == OrderStatuses::INCOMPLETED) {
+                        if ($order_info['status'] == OrderStatuses::INCOMPLETED || $order_info['status'] == OrderStatuses::FAILED) {
                             $act = CscPayselectionProcessorParams::PROCESSOR_ACTION_SAVE_ORDER;
                             $pp_response['order_status'] = OrderStatuses::OPEN;
                             $pp_response['reason_text'] = __('csc_payselection.transaction_waiting_approval');

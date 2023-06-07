@@ -7,7 +7,7 @@ function fn_csc_payselection_install(): void
     $processor_data = [
         'processor' => PAYSELECTION_PROCESSOR_NAME,
         'processor_script' => 'csc_payselection.php',
-        'processor_template' => 'views/orders/components/payments/payselection.tpl',
+        'processor_template' => 'addons/csc_payselection/views/orders/components/payments/payselection.tpl',
         'admin_template' => 'csc_payselection.tpl',
         'callback' => 'N',
         'type' => 'P',
@@ -30,7 +30,7 @@ function fn_csc_payselection_uninstall(): void
     $processors []= [
         'processor' => PAYSELECTION_PROCESSOR_NAME,
         'processor_script' => 'csc_payselection.php',
-        'processor_template' => 'views/orders/components/payments/payselection.tpl',
+        'processor_template' => 'addons/csc_payselection/views/orders/components/payments/payselection.tpl',
         'admin_template' => 'csc_payselection.tpl',
         'callback' => 'N',
         'type' => 'P',

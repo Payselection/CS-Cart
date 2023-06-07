@@ -90,7 +90,7 @@ msgstr "ИНН"
 
 msgctxt "Languages::csc_payselection.payment_place"
 msgid "Place of settlement"
-msgstr "Место расчетов"
+msgstr "Место расчетов. Адрес сайта"
 
 msgctxt "Languages::csc_payselection.success_url"
 msgid "Success URL"

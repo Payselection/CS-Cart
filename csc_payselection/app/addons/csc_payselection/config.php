@@ -1,3 +1,3 @@
 <?php
 
-define('PAYSELECTION_PROCESSOR_NAME', 'PaySelection');
+define('PAYSELECTION_PROCESSOR_NAME', 'Payselection');

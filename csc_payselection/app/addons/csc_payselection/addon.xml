@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>csc_payselection</id>
-    <name>[CS-Coding]: PaySelection</name>
-    <description>Добавляет возможность использовать платежную систему PaySelection. Разработано компанией <a href='http://store.cs-coding.ru' target='_blank'>CS-Coding</a></description>
-    <version>1.0</version>
+    <name>[CS-Coding]: Payselection</name>
+    <description>Добавляет возможность использовать платежную систему Payselection. Разработано компанией <a href='http://store.cs-coding.ru' target='_blank'>CS-Coding</a></description>
+    <version>1.1</version>
     <default_language>ru</default_language>
     <priority>100</priority>
     <status>active</status>
